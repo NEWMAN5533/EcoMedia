@@ -135,7 +135,7 @@ main {
 }
 main .container{
 display: grid;
-grid-template-columns: 18vw auto 20vw;
+grid-template-columns: auto 40vw auto;
 position: relative;
 column-gap: 2rem;
 }
@@ -745,7 +745,7 @@ nav .search-bar {
 }
 
 main .container {
-  grid-template-columns: 0 auto 5rem;
+  grid-template-columns: 0 40vw 4rem;
   gap: 0;
 }
 
