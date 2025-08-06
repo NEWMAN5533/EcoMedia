@@ -135,7 +135,7 @@ main {
 }
 main .container{
 display: grid;
-grid-template-columns: auto 40vw auto;
+grid-template-columns: 18vw auto 20vw;
 position: relative;
 column-gap: 2rem;
 }
@@ -712,7 +712,7 @@ cursor: pointer;
 
 @media  screen and (max-width: 1200px) {
 .container{
-  width: 96%;
+  width: 90%;
 }
 main .container {
   grid-template-columns: 5rem auto 30vw;
@@ -745,7 +745,7 @@ nav .search-bar {
 }
 
 main .container {
-  grid-template-columns: 0 40vw 4rem;
+  grid-template-columns: 0 auto 5rem;
   gap: 0;
 }
 
